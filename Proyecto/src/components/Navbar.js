@@ -1,17 +1,16 @@
 import React from "react";
 
-function Navbar() {
-    return (
-        
-        <Navbar className="p-3 bg-black text-white">
+function Navbar(){
+    return(
+        <div className="p-3 bg-black text-white">
           <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
     
             <ul className="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="/index.html" className="nav-link px-2 text-white">Grays</a></li>
-              <li><a href="#" className="nav-link px-2 text-white">Ritual</a></li>
+              <li><a href="#" className="nav-link px-2 text-white">Grays</a></li>
+              <li><a herf="#" className="nav-link px-2 text-white">Ritual</a></li>
               <li><a href="#" className="nav-link px-2 text-white">TK</a></li>
               <li><a href="#" className="nav-link px-2 text-white">Osaka</a></li>
-              <li><a href="/cuenta.html" className="nav-link px-2 text-white">Cuenta</a></li>
+              <li><a href="#" className="nav-link px-2 text-white">Cuenta</a></li>
             </ul>
     
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
@@ -25,10 +24,8 @@ function Navbar() {
             </div>
             
           </div>
-        </Navbar>
-      
+        </div>
     );
-  }
-
+}
 
 export default Navbar;
